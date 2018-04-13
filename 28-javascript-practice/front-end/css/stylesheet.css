@@ -1,0 +1,31 @@
+#task-list {
+  width: auto;
+  display: grid;
+  float: left;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+#task-container {
+  /* width: auto; */
+  /* float: left; */
+
+  /* display: flex; */
+  /* align: center; */
+}
+#task-content #task-container{
+  display: inline-flex;
+  flex-direction: column;
+  /* width:auto; */
+  /* justify-content: center ; */
+  padding: 10px;
+
+}
+#task-content {
+  flex-direction: row;
+  align-content: center;
+
+}
